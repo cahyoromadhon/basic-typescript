@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Target JavaScript versi ES6
+    "module": "commonjs", // Modul untuk Node.js
+    "strict": true, // Aktifkan pemeriksaan tipe ketat
+    "outDir": "./dist", // Folder output untuk file .js
+    "rootDir": "./src" // Folder sumber untuk file .ts
+  }
+}
