@@ -1,0 +1,18 @@
+{
+  "name": "program5",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "query": "ts-node src/query-data.ts",
+    "guide": "ts-node src/sui-client-complete-guide.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "latest",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
